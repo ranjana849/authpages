@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:loginpage/screens/SplashScreen.dart';
 import 'package:loginpage/user_onboard/loginScreen.dart';
+import 'package:loginpage/user_onboard/resetPasswordScreen.dart';
 import 'package:loginpage/user_onboard/sginUpScreen.dart';
+import 'package:loginpage/widgets/riveSplashanimation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +22,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.lightGreen,
       ),
-      home: LoginScreen(),
+      home: SplashScreen(),
     );
   }
 }
